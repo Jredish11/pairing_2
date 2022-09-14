@@ -5,6 +5,6 @@ if friend == "Jeff"
   puts "Hi, buddy!"
 elsif friend != "Jeff"
   puts "Sorry your not Jeff"
-elsif friend2 == "Joe"
+if friend2 == "Joe"
   puts "Hi Joe!"
 end
