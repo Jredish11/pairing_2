@@ -1,6 +1,10 @@
 friend = ["Jeff"]
+friend2 = ["Joe"]
+
 if friend == "Jeff"
   puts "Hi, buddy!"
-else friend != "Jeff"
+elsif friend != "Jeff"
   puts "Sorry your not Jeff"
+elsif friend2 == "Joe"
+  puts "Hi Joe!"
 end
